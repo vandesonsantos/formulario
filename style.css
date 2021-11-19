@@ -1,0 +1,12 @@
+@charset "UTF-08";
+
+div#principal {
+    background-color: #f2f2f2;
+    height: 700px;
+}
+
+form#pesquisa {
+    background-color: #8ca672;
+    height: 600px;
+    width: 400px;
+}
