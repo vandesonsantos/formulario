@@ -14,23 +14,23 @@
     <form id="pesquisa">
         <p>Diga-nos como podemos melhorar o freeCodeCamp</p>
 
-        <div id="bl01">
+        <div class="form" id="bl01">
             <label for="inputNome">Nome:</label>
-            <input type="text" name="nome" id="nome" placeholder="Nome Completo"
+            <input type="text" name="nome" id="nome" placeholder="nome completo"
             >
         </div>
 
-        <div id="bl02">
+        <div class="form" id="bl02">
             <label for="inputEmail">Email:</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" placeholder="exemplo@email.com">
         </div>
 
-        <div id="bl03">
+        <div class="form" id="bl03">
             <label for="inputIdade">Idade:</label>
-            <input type="number" name="numero" id="numero">
+            <input type="number" name="numero" id="numero" placeholder="anos">
         </div>
 
-        <div id="bl04">
+        <div class="form" id="bl04">
             <label for="inputprofisao">Qual opção descreve melhor sua função?</label>
             <select name="profissao" id="profissao">
                 <option value="">FreeLance</option>
@@ -39,14 +39,14 @@
             </select>
         </div>
 
-        <div id="bl05"> 
-            <label for="inputPosiblity">Qual é a probabilidade de você recomendar o freeCodeCamp a um amigo?</label>
-            <input type="radio" name="certeza" id="certeza"> Com certeza 
-            <input type="radio" name="pode" id="pode"> Pode ser
-            <input type="radio" name="nao" id="nao"> Não tenho certeza
+        <div class="form" id="bl05"> 
+            <label for="inputPosiblity">Qual é a probabilidade de você recomendar o freeCodeCamp a um amigo?</label> <br>
+            <input type="radio" name="certeza" id="certeza" checked><label for="aa">Com certeza</label></input>  
+            <input type="radio" name="pode" id="pode"><label for="bb">Pode ser</label></input>
+            <input type="radio" name="nao" id="nao"><label for="cc">Não tenho certeza</label></input> 
         </div>
 
-        <div id="bl06">
+        <div class="form" id="bl06">
             <label for="inputGostar">O que você mais gosta no FCC:</label>
             <select name="gostar" id="gostr">
                 <option value="">Jogar</option>
@@ -56,14 +56,14 @@
             </select>
         </div>
 
-        <div id="bl07">
-            <label for="inputFututo">Coisas que devem ser melhoradas no futuro (marque todas as opções aplicáveis):</label>
-            <input type="checkbox" name="front" id="front"> Front-end Projects
+        <div class="form" id="bl07">
+            <label for="inputFututo">Coisas que devem ser melhoradas no futuro (marque todas as opções aplicáveis):</label> <br>
+            <input type="checkbox" name="front" id="front" checked> Front-end Projects
             <input type="checkbox" name="back" id="back"> Back-end Projects
             <input type="checkbox" name="data" id="data"> Data Visualization
         </div>
 
-        <div id="bl08">
+        <div class="form" id="bl08">
             <input type="button" value="ENVIAR">
         </div>
     </form>
