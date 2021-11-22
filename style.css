@@ -39,6 +39,12 @@ form#pesquisa {
     height: 550px;
 }
 
+form > div#bl08 > input {
+    background-color: var(--cor1);
+    width: 100px;
+    height: 40px;
+}
+
 form > p {
     font-weight: bold;
 }
